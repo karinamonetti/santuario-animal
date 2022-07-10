@@ -5,3 +5,5 @@ _Sitio web creado como Proyecto Final para culminar con la Capacitación otorgad
 - **Camilo Quiroga**
 - **Iván Cari**
 - **Luciano Barrientos**
+- **Catherine Escalier**
+- **Rodrigo Vargas**
