@@ -1,52 +1,137 @@
 @import url('https://fonts.googleapis.com/css2? family= Lexend:wght@700 & display=swap');
+/* REDES */
 h1{
-    width: 559.33056640625px;
-    height: 30px;
-    top: 177px;
-    border-radius: nullpx;
-    font-family:  'Lexend', sans-serif;
+    /* width: 559.33056640625px; */
+    /* height: 30px; */
+    /* top: 177px; */
+    /* border-radius: nullpx; */
+    font-family:  Lexend;
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
-    
-    
+}
+
+img{ 
+    height: 50px; 
+    width: 50px;
+    left: 372px;
+    top: 5px;
+}
+
+
+/* ----REDES Final---------- */
+
+
+/* ----------SATUARIO ANIMAL---------- */
+h2{
+    font-family: Lexend;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
 
 }
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+font-family: Hind Madurai;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.05em;
+text-align: left;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ----------SATUARIO ANIMAL fINAL------------------- */
+
+/* ----------DONAR------------------- */
+.botoon{
+
+
+
+    border: 5px solid  #FFD87E;
+    border-radius: 15px;
+    color: #97B8A5;
+    height: 60px;
+    width: 160px;
+    /* left: 1165px;
+    top: 187px; */
+    font-family: Lexend;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37.5px;
+    background: #FFD87E;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------DONAR fINAL------------------- */
+
+/* ----------COPYRIGHT------------------- */
+p{
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+    }
+    p{
+        color: #477D5E;
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    
+    
+    }
+
+
+
+
+
+
+/* ----------COPYRIGHT FINAL------------------- */
+
 
 footer{
-    height: 413px;
-width: 1440px;
-/* background: #97B8A5; */
-background-image: url(src\assets\ola.svg);
-    position: absolute;
-}
+margin-top: 25px;
 
-body{
-    
-    /* background-image: url(src\assets\ola.svg); */
-
-    
-}
-p{
-font-family: Hind Madurai;
-font-size: 14px;
-font-weight: 400;
-line-height: 15px;
-letter-spacing: 0.05em;
-text-align: center;
-
-}
-
-img{
-    height: 40px;
-width: 50px;
-left: 372px;
-top: 5px;
-border-radius: 0px;
+ } 
+ footer{
+    background-image: url(src\assets\ola.png);
+ }
 
 
-}
-button{
+
+
+
+/* button{
     height: 38px;
 width: 115px;
 left: 1165px;
@@ -63,41 +148,15 @@ background: #FFD87E;
 
 }
 
-img{
-    display: block;
-}
+
 .logos{
      display: flex;
      flex-direction: row;
      flex-grow: 80;
      
 }
-ul{
-    list-style: none;
-}
-li a{
-    text-decoration: none;
-font-family: Hind Madurai;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.05em;
-text-align: left;
 
-}
-p{
-    color: #477D5E;
-font-family: Hind Madurai;
-font-size: 14px;
-font-weight: 400;
-line-height: 15px;
-letter-spacing: 0.05em;
-text-align: center;
 
-}
 .fondo{
-    background-image: url(src\assets\ola.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center
+
 }
