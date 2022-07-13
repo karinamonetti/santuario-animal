@@ -1,0 +1,61 @@
+/* FUENTES Y TAMAÑOS */
+
+
+/* font-family: 'Lexend'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+/* font-family: 'Hind Madurai'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+
+/* COLORES */
+
+:root {
+    --yellow: #FFD87EFF;
+    --green-light: #97B8A5FF;
+    --green-dark: #477D5E;
+    --sky-blue: #deeaecff;
+    --coral: #f18b7eff;
+    --pink-light: #ffe4ddff;
+    --grey-dark: #3f3f3fff;
+}
+
+h1 {
+    font-family: 'Lexend';
+    font-size: 36px !important;
+    font-weight: 900 !important;
+}
+
+h2 {
+    font-family: 'Lexend';
+    font-size: 30px !important;
+    font-weight: 800 !important;
+}
+
+h3 {
+    font-family: 'Lexend';
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+button {
+    font-family: 'Lexend';
+    font-size: 30px !important;
+    font-weight: 800 !important;
+}
+
+.texto__grande {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 28px;
+}
+
+.texto__mediano {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 18px;
+}
+
+.texto__pequeño {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+}
