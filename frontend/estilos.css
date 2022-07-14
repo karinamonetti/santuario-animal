@@ -1,21 +1,28 @@
-@import url('https://fonts.googleapis.com/css2? family= Lexend:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
 /* REDES */
 h1{
     /* width: 559.33056640625px; */
     /* height: 30px; */
     /* top: 177px; */
     /* border-radius: nullpx; */
-    font-family:  Lexend;
+    /* font-family:  Lexend;
     font-size: 24px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 30px; */
+
+    font-family: 'Lexend';
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: #FFFFFF;
 }
 
 img{ 
-    height: 50px; 
+    height: 40px; 
     width: 50px;
     left: 372px;
     top: 5px;
+    
 }
 
 
@@ -24,14 +31,15 @@ img{
 
 /* ----------SATUARIO ANIMAL---------- */
 h2{
-    font-family: Lexend;
-font-size: 24px;
-font-weight: 700;
-line-height: 30px;
+    font-family: 'Lexend';
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: #FFFFFF;
 
 }
-ul{
+ div ul{
     list-style: none;
+    padding: 0;
 }
 li a{
     text-decoration: none;
@@ -41,6 +49,8 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.05em;
 text-align: left;
+color: #FFFFFF;
+
 
 
 }
@@ -75,6 +85,10 @@ text-align: left;
     text-decoration: none;
     padding: 10px;
     
+    
+}
+.Donar{
+        text-align: center;
 }
 
 
@@ -110,6 +124,16 @@ p{
     
     
     }
+    footer{
+            background-image: url(src\assets\ola.png);
+            margin-top: 25px;
+            background: #97B8A5;
+            ;
+    }
+    h1 img h2{
+        font-size: clamp(10px, 50%, 24px); 
+        line-height: ;
+    }
 
 
 
@@ -119,13 +143,7 @@ p{
 /* ----------COPYRIGHT FINAL------------------- */
 
 
-footer{
-margin-top: 25px;
-
- } 
- footer{
-    background-image: url(src\assets\ola.png);
- }
+ 
 
 
 
