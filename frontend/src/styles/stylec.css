@@ -43,6 +43,13 @@ button {
     font-family: 'Lexend';
     font-size: 30px !important;
     font-weight: 800 !important;
+    background-color: #477D5E !important;
+    color: #FFFFFF !important;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
 }
 
 .texto__grande {
@@ -58,4 +65,8 @@ button {
 .texto__pequeño {
     font-family: 'Hind Madurai', sans-serif;
     font-size: 14px;
+}
+
+.texto__rosa {
+    color: #f18b7eff!important;
 }
