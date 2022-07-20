@@ -74,3 +74,22 @@ p {
 .container {
     height: 50;
 }
+
+
+@media (min-width: 991.98px) { 
+    p {
+        font-size: 2em;
+    }
+
+ }
+
+
+ .grid-1{
+    grid-row: 1/2;
+ }
+ .grid-2{
+    grid-row: 1;
+ }
+ .grid-3{
+    grid-row: 1/2;
+ }
