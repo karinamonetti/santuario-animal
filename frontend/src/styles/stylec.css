@@ -1,168 +1,185 @@
-/* FUENTES Y TAMAÑOS */
-
-
-/* font-family: 'Lexend'; */
-
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
-
-/* font-family: 'Hind Madurai'; */
-
-@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
-
-/* COLORES */
-
-:root {
-    --yellow: #FFD87EFF;
-    --green-light: #97B8A5FF;
-    --green-dark: #477D5E;
-    --sky-blue: #deeaecff;
-    --coral: #f18b7eff;
-    --pink-light: #ffe4ddff;
-    --grey-dark: #3f3f3fff;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    font-family: 'Lexend';
-    /* font-size: 36px !important; */
-    font-weight: 900 !important;
-}
-
-h2 {
-    font-family: 'Lexend';
-    /* font-size: 30px !important; */
-    font-weight: 800 !important;
-}
-
-h3 {
-    font-family: 'Lexend';
-    /* font-size: 24px !important; */
-    font-weight: bold !important;
-}
-
-button {
-    font-family: 'Lexend';
-    /* font-size: 30px !important; */
-    font-weight: 800 !important;
-    background-color: #477D5E !important;
-    color: #FFFFFF !important;
-}
-
-p {
-    text-align: center;
-}
-
-.texto__grande {
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: clamp(0.8rem, 1.3vw, 1.7rem);
-}
-
-.texto__mediano {
-    font-family: 'Hind Madurai', sans-serif;
-    /* font-size: 18px; */
-}
-
-.texto__pequeño {
-    font-family: 'Hind Madurai', sans-serif;
-    /* font-size: 14px; */
-}
-
-.texto__rosa {
-    color: #f18b7eff!important;
-}
-
-.tamaño-img>img {
-    max-width: 100%;
-    height: 450px;
-}
-
-.grid__total {
-    display: grid;
-    justify-content: center;
-    column-gap: 20px;
-    text-align: center;
-}
-
-.grid__1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    max-width: 400px;
-    align-self: end;
-    margin-bottom: 10px;
-}
-
-.grid__2 {
-    margin: 0;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    max-width: 400px;
-}
-
-.grid__3 {
-    margin: 0;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    max-width: 400px;
-    align-self: center;
-    margin-top: 100px;
-}
-
-.grid__4 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin-top: 60px;
-}
-
-.grid__1>p,
-.grid__2>p,
-.grid__3>p {
-    margin: 0;
-}
-
-.boton {
-    border-radius: 15px;
-}
-
-@media (max-width:600px) {
-    .grid__1 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        max-width: 400px;
-        align-self: end;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    .grid__4 {
-        margin: 0;
-        grid-row-start: 2;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        align-items: center;
-    }
-    .grid__3 {
-        margin: 0;
-        grid-row-start: 4;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        max-width: 400px;
-        align-self: center;
-        margin-top: 30px;
-        text-align: center;
-    }
-    .grid__2 {
-        grid-row-start: 3;
-        grid-row-end: 4;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        margin-top: 60px;
-        text-align: center;
-    }
-}
+        /* FUENTES Y TAMAÑOS */
+        /* font-family: 'Lexend'; */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+        /* font-family: 'Hind Madurai'; */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+        /* COLORES */
+        
+         :root {
+            --yellow: #FFD87EFF;
+            --green-light: #97B8A5FF;
+            --green-dark: #477D5E;
+            --sky-blue: #deeaecff;
+            --coral: #f18b7eff;
+            --pink-light: #ffe4ddff;
+            --grey-dark: #3f3f3fff;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        
+        h1 {
+            font-family: 'Lexend';
+            /* font-size: 36px !important; */
+            font-weight: 900 !important;
+        }
+        
+        h2 {
+            font-family: 'Lexend';
+            /* font-size: 30px !important; */
+            font-weight: 800 !important;
+        }
+        
+        h3 {
+            font-family: 'Lexend';
+            /* font-size: 24px !important; */
+            font-weight: bold !important;
+        }
+        
+        .boton {
+            font-family: 'Lexend';
+            /* font-size: 30px !important; */
+            font-weight: 800 !important;
+            background-color: #477D5E !important;
+            color: #FFFFFF !important;
+            border-radius: 15px;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        .texto__grande {
+            font-family: 'Hind Madurai', sans-serif;
+            font-size: clamp(0.8rem, 1.1vw, 1.3rem);
+        }
+        
+        .texto__mediano {
+            font-family: 'Hind Madurai', sans-serif;
+            /* font-size: 18px; */
+        }
+        
+        .texto__pequeño {
+            font-family: 'Hind Madurai', sans-serif;
+            /* font-size: 14px; */
+        }
+        
+        .texto__rosa {
+            color: #f18b7eff!important;
+        }
+        
+        .tamaño-img>img {
+            max-width: 85%;
+            height: 100%;
+        }
+        
+        .grid__total {
+            display: grid;
+            justify-content: center;
+            column-gap: 20px;
+            text-align: center;
+            max-height: 20vh;
+        }
+        
+        .grid__1 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            max-width: 400px;
+            align-self: end;
+            margin-bottom: 10px;
+        }
+        
+        .grid__2 {
+            margin: 0;
+            grid-row-start: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            max-width: 400px;
+        }
+        
+        .grid__3 {
+            margin: 0;
+            grid-row-start: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            max-width: 400px;
+            align-self: center;
+            margin-top: 100px;
+        }
+        
+        .grid__4 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            margin-top: 60px;
+        }
+        
+        .grid__1>p,
+        .grid__2>p,
+        .grid__3>p {
+            margin: 0;
+        }
+        
+        @media (max-width:600px) {
+            .grid__1 {
+                margin: 0 auto;
+                font-size: 20px;
+                margin-top: 20px;
+                text-align: center;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                max-width: 400px;
+                align-self: end;
+                margin-bottom: 10px;
+            }
+            .grid__4 {
+                margin: 0 auto;
+                font-size: 20px;
+                text-align: center;
+                margin: 0;
+                grid-row-start: 2;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                align-items: center;
+            }
+            .grid__3 {
+                font-size: 20px;
+                margin: 0 auto;
+                grid-row-start: 4;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                align-self: center;
+                margin-top: 30px;
+                text-align: center;
+                align-items: center;
+                width: 100%;
+            }
+            .grid__2 {
+                margin: 0 auto;
+                font-size: 20px;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                margin-top: 60px;
+                text-align: center;
+            }
+        }
+        
+        @media (min-width:1670px) {
+            .grid__3 {
+                margin: 0;
+                grid-row-start: 4;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                max-width: 400px;
+                align-self: center;
+                text-align: center;
+            }
+        }
