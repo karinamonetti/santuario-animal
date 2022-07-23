@@ -12,12 +12,12 @@ h1{
     line-height: 30px; */
 
     font-family: 'Lexend';
-    font-size: 24px !important;
-    font-weight: 800 !important;
+    font-size: 24px;
+    font-weight: 800px ;
     color: #FFFFFF;
 }
 
-img{ 
+.icon-size{ 
     height: 40px; 
     width: 50px;
     left: 372px;
@@ -32,17 +32,17 @@ img{
 /* ----------SATUARIO ANIMAL---------- */
 h2{
     font-family: 'Lexend';
-    font-size: 24px !important;
-    font-weight: 800 !important;
+    font-size: 24px;
+    font-weight: 800px !important;
     color: #FFFFFF;
 
 }
- div ul{
+div ul{
     list-style: none;
     padding: 0;
 }
 li a{
-    text-decoration: none;
+text-decoration: none;
 font-family: Hind Madurai;
 font-size: 18px;
 font-weight: 400;
@@ -50,16 +50,11 @@ line-height: 30px;
 letter-spacing: 0.05em;
 text-align: left;
 color: #FFFFFF;
-
-
-
 }
 
-
-
-
-
-
+.disList{
+    display: inline-block;
+}
 
 
 
@@ -113,7 +108,7 @@ p{
     
     }
     p{
-        color: #477D5E;
+    color: #477D5E;
     font-family: Hind Madurai;
     font-size: 14px;
     font-weight: 400;
@@ -125,15 +120,68 @@ p{
     
     }
     footer{
-            background-image: url(src\assets\ola.png);
-            margin-top: 25px;
-            background: #97B8A5;
-            ;
+        background-image: url(./src/assets/olav3.svg );
+        height:480px;
+        margin-top:25px;
+        display:flex;
+        align-items: end;
+
     }
-    h1 img h2{
-        font-size: clamp(10px, 50%, 24px); 
-        line-height: ;
+
+
+.chico{
+        font-size: clamp(1.5em, 1.5vw, 3em); 
+        
+    } 
+
+@media (max-width: 991px) {
+    .arreglo{
+        display: none;
+
+        
+
     }
+    .margen{
+        margin-bottom: 98px;
+}
+    
+
+}
+
+@media (max-width: 768px) {
+        .margen{
+            margin-bottom: 98px;}
+        
+
+
+        }
+
+        @media (max-width: 420px) {
+            .chico{
+                font-size: 14px;}
+                .icon-size{ 
+                    height: 20px; 
+                    width: 20px;
+                    
+                    
+                }
+                .botoon{
+                    width: 86px !important;
+                    height: 26px !important;
+                    padding: 0;
+                    font-size: 14px;
+                }
+                .margen{
+                    margin-bottom: 50px;
+                }
+
+                footer{
+                    background-image: url(./src/assets/ola-pequeña.svg );
+                    background-size:560px ;
+                    background-position: bottom;
+                    background-repeat: no-repeat;
+                }
+            }
 
 
 
@@ -142,8 +190,6 @@ p{
 
 /* ----------COPYRIGHT FINAL------------------- */
 
-
- 
 
 
 
