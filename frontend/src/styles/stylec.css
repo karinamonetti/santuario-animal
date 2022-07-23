@@ -60,4 +60,17 @@ button {
     font-size: 14px;
 }
 
+.hover-style > li > a > span:hover {
+    color: red;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 3px !important;
+    /* padding-top: 5px;
+     */
+    
+}
 
+
+
+.subrayado:hover {
+    
+}
