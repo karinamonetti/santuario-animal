@@ -22,7 +22,7 @@ h1{
     width: 50px;
     left: 372px;
     top: 5px;
-    
+    color: #FFFFFF;
 }
 
 
@@ -172,7 +172,8 @@ p{
                     font-size: 14px;
                 }
                 .margen{
-                    margin-bottom: 50px;
+                    margin-bottom: 21px;
+                   
                 }
 
                 footer{
@@ -188,39 +189,4 @@ p{
 
 
 
-/* ----------COPYRIGHT FINAL------------------- */
 
-
-
-
-
-
-/* button{
-    height: 38px;
-width: 115px;
-left: 1165px;
-top: 187px;
-border-radius: nullpx;
-font-family: Lexend;
-font-size: 30px;
-font-weight: 800;
-line-height: 38px;
-letter-spacing: 0em;
-background: #FFD87E;
-
-
-
-}
-
-
-.logos{
-     display: flex;
-     flex-direction: row;
-     flex-grow: 80;
-     
-}
-
-
-.fondo{
-
-}
