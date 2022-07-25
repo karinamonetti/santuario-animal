@@ -60,17 +60,44 @@ button {
     font-size: 14px;
 }
 
+.fond-style {
+    background-color: var(--pink-light);
+}
+
+.text-style {
+color: #477D5E;    
+font-family: Lexend;
+font-size: 24px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
 .hover-style > li > a > span:hover {
-    color: red;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 3px !important;
-    /* padding-top: 5px;
-     */
-    
-}
+    display: block;
+    color: var(--coral);
+    border-bottom: 5px solid var(--coral);
+    transform: translateY(-5px);
+    transition: 300ms transform;
+  }
 
-
-
-.subrayado:hover {
-    
-}
+  @media(max-width: 991px) {
+    .fond-style {
+        background-color: var(--green-light)
+    }
+    .text-style {
+        color: #FFFFFFCC;
+        font-family: Lexend;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;    
+    }
+    .hover-style > li > a > span:hover {
+        color: var(--green-dark);
+        border-bottom: 5px solid var(--green-dark);
+      }
+  }
