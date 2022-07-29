@@ -64,3 +64,97 @@ button {
     font-family: 'Hind Madurai', sans-serif;
     font-size: 14px;
 }
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+h1 {
+    
+    font-size: 22px;
+    
+}
+
+.texto {
+    text-align: center;
+}
+
+.imagen {
+    position: absolute;
+    top: 215px;
+    left: 230px;
+    width: 121px;
+    height: 144px;
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.parrafo {
+    width: 190px;
+    
+    
+}
+
+.parrafo2 {
+    font-size: 16px
+}
+
+@media (min-width: 576px) {
+    .imagen {
+        position: absolute;
+        top: 150px;
+        left: 400px;
+        width: 121px;
+        height: 144px;
+    }
+    .parrafo {
+        width: 350px;
+    }
+}
+
+@media (min-width: 768px) {
+    .imagen {
+        position: absolute;
+        top: 150px;
+        left: 400px;
+        width: 327px;
+        height: 390px;
+    }
+    .parrafo {
+        width: 350px;
+        font-size: 24px;
+    }
+
+    .parrafo2 {
+        font-size: 24px
+    }
+}
+
+@media (min-width: 992px) {
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imagen {
+        width: 327px;
+        height: 390px;
+    }
+    .parrafo {
+        font-size: 24px;
+    }
+
+   
+
+
+}
+
+
