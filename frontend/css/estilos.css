@@ -120,7 +120,7 @@ p{
     
     }
     footer{
-        background-image: url(/santuario-animal/frontend/src/assets/olav3.svg );
+        background-image: url(/frontend/src/assets/olav3.svg );
         height:480px;
         margin-top:25px;
         display:flex;
@@ -177,7 +177,7 @@ p{
                 }
 
                 footer{
-                    background-image: url(/santuario-animal/frontend/src/assets/ola-pequeña.svg );
+                    background-image: url(/frontend/src/assets/ola-pequeña.svg );
                     background-size:560px ;
                     background-position: bottom;
                     background-repeat: no-repeat;
