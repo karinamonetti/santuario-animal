@@ -41,6 +41,11 @@
             font-weight: bold !important;
         }
         
+        .boton:hover {
+            color: #477D5E!important;
+            background-color: #97b8a5ff!important;
+        }
+        
         .boton {
             font-family: 'Lexend';
             /* font-size: 30px !important; */
