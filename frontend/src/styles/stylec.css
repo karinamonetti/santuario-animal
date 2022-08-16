@@ -10,6 +10,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 
 /* COLORES */
+.grid{
+    display: grid;
+    grid-template-areas: 
+            "seccion" "seccion";
+}
 
 :root {
     --yellow: #FFD87EFF;
@@ -59,33 +64,3 @@ button {
     font-family: 'Hind Madurai', sans-serif;
     font-size: 14px;
 }
-
-/* Carousel Boostrap */
-.carousel-item{
-    height: 92vh; 
-    width: 100%;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.carousel-item  img {
-    object-fit:unset;   
-    transition: all 500ms ease-in-out;       
-}
-
-.carousel-item figure #capa{
-    transition: all 500ms ease-in-out;
-    opacity: 0;
-    visibility: hidden;
-}
-.carousel-item figure:hover > #capa {
-    opacity: 3;
-    visibility:visible;
-}
-
-.carousel-item figure:hover > img {
-   filter: opacity(0.3) drop-shadow(0 0 0 rgb(66, 66, 66)); 
-        
-}
-
-/**************************************************/
