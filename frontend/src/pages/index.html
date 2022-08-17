@@ -7,139 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santuario Animal</title>
     <link rel="stylesheet" href="/frontend/src/bootstrap/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/frontend/src/styles/stylec.css">
+    <link rel="stylesheet" href="../styles/stylec.css">
 </head>
 
 <body>
-    <!--Seccion "carrusel inicial"-->
-    <section id="carrusel">
-        <div id="carouselExampleCaptions" class="carousel " data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/frontend/src/assets/fotos/foto-slide.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
-                            animales.</h1>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/frontend/src/assets/fotos/foto-slide2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
-                            animales.</h1>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/frontend/src/assets/fotos/foto-slide3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
-                            animales.</h1>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
-    <!--Seccion "Fin carrusel inicial"-->
 
-    <!--Seccion "Donación" -->
-    <section id="donacion">
-        <div>
-            <img src="/frontend/src/assets/fotos/corazones amarillos.png" alt="">
+  <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo-style" src="../assets/logo/LOGO DESKTOP.png" alt="Logo Santuario Animal">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end w-75 fond-style" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div>
-            <img src="/frontend/src/assets/fotos/Group 4.png" alt="">
+        <div class="offcanvas-body"  >
+          <ul class="navbar-nav h-100 d-flex-wrow justify-content-around flex-grow-1 pe-3 menu-style">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="text-style">HOME</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="text-style">SOBRE NOSOTROS</span></a>  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="text-style">ADOPCIONES</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="text-style">CÓMO COLABORAR</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="text-style">TIENDA</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="text-style">CONTACTO</span></a>
+            </li>
+            
+          </ul>
         </div>
-        <div>
-            <img src="/frontend/src/assets/fotos/Vector.png" alt="">
-        </div>
-        <div>
-            <div>
-                <p>Nuestro Santuario no recibe fondos del gobierno ni de ninguna entidad estatal. Para poder ayudar a
-                    nuestros animales confiamos en la generosidad de personas como vos.
-                    Poder financiar el Santuario conlleva muchos gastos... veterinarios, alimentos, medicamentos,
-                    traslados y facturas de calefacción para todos nuestros animales, algunos de los cuales estarán con
-                    nosotros por el resto de sus vidas.
-                    Cada donación cuenta, por pequeña que sea.</p>
-                <button>
-                    <a href="">Realiza una donación</a>
-                </button>
-                <div>
-                    <img src="/frontend/src/assets/fotos/12 1.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Seccion "Fin Donación" -->
+      </div>
+    </div>
+  </nav>
 
-    <!--Seccion "Conocer Santuario" -->
-    <section id="conocerSantuario">
-        <div>
-            <img src="/frontend/src/assets/fotos/pepicons_question-circle-print.png" alt="">
-            <h1>Queres venir a conocer el santuario</h1>
-            <img src="/frontend/src/assets/fotos/pepicons_question-circle-print(1).png" alt="">
-        </div>
-        <div>
-            <p>El Santuario Animal organiza visitas todos los meses en donde puedes asistir junto con tu familia a
-                conocer las instalaciones y pasar el dia con nuestros rescatados. ¡Podés <a href="#">ponerte en contacto</a>  con
-                nosotros para conocer las próximas fechas de visitas o seguirnos en nuestras redes sociales para
-                enterarte de todas las novedades!</p>
-        </div>
-        <div>
-            <img src="/frontend/src/assets/fotos/Group 3.png" alt="">
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <p>Se permite el acceso de menores pero éstos deben estar a cargo de un mayor el cual es responsable
-                        de ellos.</p>
-                </li>
-                <li>
-                    <p>Podés traer frutas y verduras para alimentar a nuestros animales</p>
-                </li>
-                <li>
-                    <p>No se permite traer material descartable, todo lo que traes debe volver con vos</p>
-                </li>
-                <li>
-                    <p>La actividad es gratuita pero se exige un monto de $300 a modo de reserva del cupo. Se les
-                        devolverá el total de la reserva a las personas que asistan.</p>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <img src="/frontend/src/assets/fotos/image 3.png" alt="">
-        </div>
-    </section>
-    <!--Seccion "Fin Conocer Santuario" -->
 
-    <!--Seccion "Scroll"-->
-    <section id="scroll">
-        <div>
-            <img src="/frontend/src/assets/fotos/ir arriba.png" alt="">
-        </div>
-    </section>
-    <!--Seccion "Fin Scroll"-->
 
-    <!-- JavaScript link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    
 
+
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>
