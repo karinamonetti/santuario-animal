@@ -1,0 +1,30 @@
+
+/* Carousel Boostrap */
+.carousel-item{
+    height: 100vh; 
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.carousel-item  img {
+    /* object-fit: cover; */
+/*    transition: all 500ms ease-in-out;   */     
+}
+
+.carousel-item figure > #capa{
+/*  transition: all 500ms ease-in-out;  */
+    opacity: 0;
+    visibility: hidden;
+}
+.carousel-item figure:hover > #capa {
+    opacity: 3;
+    visibility: visible;
+}
+
+.carousel-item figure:hover > img {
+   filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0)); 
+        
+}
+
+/**************************************************/

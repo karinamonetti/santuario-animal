@@ -2,67 +2,137 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santuario Animal</title>
-    <link rel="stylesheet" href="/frontend/src/bootstrap/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../styles/stylec.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santuario Animal</title>
+  <link rel="stylesheet" href="/frontend/src/bootstrap/node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../styles/stylec.css">
+  <link rel="stylesheet" href="/frontend/css/estilos.css">
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo-style" src="../assets/logo/LOGO DESKTOP.png" alt="Logo Santuario Animal">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end w-75 fond-style" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav h-100 d-flex-wrow justify-content-around flex-grow-1 pe-3 menu-style">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><span class="text-style">HOME</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="text-style">SOBRE NOSOTROS</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="text-style">ADOPCIONES</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="text-style">CÓMO COLABORAR</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="text-style">TIENDA</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="text-style">CONTACTO</span></a>
+              </li>
 
-  <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img class="logo-style" src="../assets/logo/LOGO DESKTOP.png" alt="Logo Santuario Animal">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end w-75 fond-style" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </nav>  
+  </header>
+
+  <section id="carrusel">
+    <div id="carouselExampleCaptions" class="carousel " data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <figure>
+            <img src="/frontend/src/assets/fotos/foto-slide.jpg" class="d-block w-100" alt="...">
+            <div id="capa">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
+                  animales.</h3>
+              </div>
+            </div>
+          </figure>
         </div>
-        <div class="offcanvas-body"  >
-          <ul class="navbar-nav h-100 d-flex-wrow justify-content-around flex-grow-1 pe-3 menu-style">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><span class="text-style">HOME</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="text-style">SOBRE NOSOTROS</span></a>  
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="text-style">ADOPCIONES</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="text-style">CÓMO COLABORAR</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="text-style">TIENDA</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="text-style">CONTACTO</span></a>
-            </li>
-            
-          </ul>
+        <div class="carousel-item">
+          <figure>
+            <img src="/frontend/src/assets/fotos/foto-slide5.jpg" class="d-block w-100" alt="...">
+            <div id="capa">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
+                  animales.</h3>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure>
+            <img src="/frontend/src/assets/fotos/foto-slide2.jpg" class="d-block w-100" alt="...">
+            <div id="capa">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
+                  animales.</h3>
+              </div>
+            </div>
+          </figure>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </nav>
+
+  </section>
 
 
 
-    
-    
-    
+
+          
+     
 
 
-    
 
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+          
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+                integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+                crossorigin="anonymous">
+              </script>
 </body>
 
 </html>
