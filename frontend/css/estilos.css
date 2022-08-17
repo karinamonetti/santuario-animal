@@ -65,22 +65,30 @@ color: #FFFFFF;
 
 
 
-    border: 5px solid  #FFD87E;
+    border: 5px solid #97B8A5;
     border-radius: 15px;
-    color: #97B8A5;
+    color:#477D5E;
     height: 60px;
     width: 160px;
     /* left: 1165px;
     top: 187px; */
     font-family: Lexend;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 37.5px;
-    background: #FFD87E;
+    background: #97B8A5;
     text-decoration: none;
+    
     padding: 10px;
     
     
+}
+.botoon:hover{
+    background:#F18B7E;
+    color:#F2D6CB;
+
+    
+
 }
 .Donar{
         text-align: center;
