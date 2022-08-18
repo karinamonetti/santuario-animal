@@ -1,4 +1,3 @@
-
 /* Carousel Boostrap */
 .carousel-item{
     height: 100vh; 
@@ -27,4 +26,203 @@
         
 }
 
-/**************************************************/
+/**********************FIN CAROUSEL****************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+
+/*--------------------------------FOOTER---------------------------------------*/
+
+/* REDES */
+h1{
+    /* width: 559.33056640625px; */
+    /* height: 30px; */
+    /* top: 177px; */
+    /* border-radius: nullpx; */
+    /* font-family:  Lexend;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px; */
+
+    font-family: 'Lexend';
+    font-size: 24px;
+    font-weight: 800px ;
+    color: #FFFFFF;
+}
+
+.icon-size{ 
+    height: 40px; 
+    width: 50px;
+    left: 372px;
+    top: 5px;
+    color: #FFFFFF;
+}
+
+
+/* ----REDES Final---------- */
+
+
+/* ----------SATUARIO ANIMAL---------- */
+h2{
+    font-family: 'Lexend';
+    font-size: 24px;
+    font-weight: 800px !important;
+    color: #FFFFFF;
+
+}
+div ul{
+    list-style: none;
+    padding: 0;
+}
+li a{
+text-decoration: none;
+font-family: Hind Madurai;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #FFFFFF;
+}
+
+.disList{
+    display: inline-block;
+}
+
+
+
+/* ----------SATUARIO ANIMAL fINAL------------------- */
+
+/* ----------DONAR------------------- */
+.botoon{
+
+
+
+    border: 5px solid #97B8A5;
+    border-radius: 15px;
+    color:#477D5E;
+    height: 60px;
+    width: 160px;
+    /* left: 1165px;
+    top: 187px; */
+    font-family: Lexend;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37.5px;
+    background: #97B8A5;
+    text-decoration: none;
+    
+    padding: 10px;
+    
+    
+}
+.botoon:hover{
+    background:#F18B7E;
+    color:#F2D6CB;
+
+    
+
+}
+.Donar{
+        text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------DONAR fINAL------------------- */
+
+/* ----------COPYRIGHT------------------- */
+p{
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+    }
+    p{
+    color: #477D5E;
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    
+    
+    }
+    footer{
+        background-image: url(/frontend/src/assets/olav3.svg );
+        height:480px;
+        margin-top:25px;
+        display:flex;
+        align-items: end;
+
+    }
+
+
+.chico{
+        font-size: clamp(1.5em, 1.5vw, 3em); 
+        
+    } 
+
+@media (max-width: 991px) {
+    .arreglo{
+        display: none;
+
+        
+
+    }
+    .margen{
+        margin-bottom: 98px;
+}
+    
+
+}
+
+@media (max-width: 768px) {
+        .margen{
+            margin-bottom: 98px;}
+        
+
+
+        }
+
+        @media (max-width: 420px) {
+            .chico{
+                font-size: 14px;}
+                .icon-size{ 
+                    height: 20px; 
+                    width: 20px;
+                    
+                    
+                }
+                .botoon{
+                    width: 86px !important;
+                    height: 26px !important;
+                    padding: 0;
+                    font-size: 14px;
+                }
+                .margen{
+                    margin-bottom: 21px;
+                   
+                }
+
+                footer{
+                    background-image: url(/frontend/src/assets/ola-pequeña.svg );
+                    background-size:560px ;
+                    background-position: bottom;
+                    background-repeat: no-repeat;
+                }
+            }
+
+/*--------------------------------FIN FOOTER---------------------------------------*/
