@@ -52,67 +52,88 @@
     </nav>  
   </header>
 
-  <section id="carrusel">
-    <div id="carouselExampleCaptions" class="carousel " data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
+  <main>
+    <section id="carrusel">
+      <div id="carouselExampleCaptions" class="carousel " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <figure>
+              <img src="/frontend/src/assets/fotos/foto-slide.jpg" class="d-block w-100" alt="...">
+              <div id="capa">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
+                    animales.</h3>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <div class="carousel-item">
+            <figure>
+              <img src="/frontend/src/assets/fotos/foto-slide5.jpg" class="d-block w-100" alt="...">
+              <div id="capa">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
+                    animales.</h3>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <div class="carousel-item">
+            <figure>
+              <img src="/frontend/src/assets/fotos/foto-slide2.jpg" class="d-block w-100" alt="...">
+              <div id="capa">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
+                    animales.</h3>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <figure>
-            <img src="/frontend/src/assets/fotos/foto-slide.jpg" class="d-block w-100" alt="...">
-            <div id="capa">
-              <div class="carousel-caption d-none d-md-block">
-                <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
-                  animales.</h3>
+
+    </section>
+
+    <section>
+      <div class="grid__total texto__grande">
+          <div class="grid__1">
+              <p class="text-center"> En Santuario Animal hace más de 30 años nos dedicamos a <span class="texto__rosa">rescatar, rehabilitar y reubicar</span> a todos los animales que podamos que necesiten nuestra ayuda.</p>
+          </div>
+          <div class="grid__2">
+              <p class="text-center"> Ofrecemos <span class="texto__rosa">seguridad y cuidado hasta que podamos encontrar nuevas familias</span> que los amen, o pueden vivir sus vidas con nosotros en nuestra aldea de jubilados si eso es lo que les conviene.</p>
+              <p class="text-center"><b>Hasta que llegue ese día estaremos aquí, sirviendo a los animales y personas de nuestra comunidad.</b></p>
+          </div>
+          <div class="grid__3">
+              <div class="d-grid  col-10 mx-auto">
+                  <button class="btn boton" type="button">SOBRE NOSOTROS</button>
               </div>
-            </div>
-          </figure>
-        </div>
-        <div class="carousel-item">
-          <figure>
-            <img src="/frontend/src/assets/fotos/foto-slide5.jpg" class="d-block w-100" alt="...">
-            <div id="capa">
-              <div class="carousel-caption d-none d-md-block">
-                <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
-                  animales.</h3>
-              </div>
-            </div>
-          </figure>
-        </div>
-        <div class="carousel-item">
-          <figure>
-            <img src="/frontend/src/assets/fotos/foto-slide2.jpg" class="d-block w-100" alt="...">
-            <div id="capa">
-              <div class="carousel-caption d-none d-md-block">
-                <h3>En el Santuario Animal trabajamos para el cuidado y protección de nuestros más de 350
-                  animales.</h3>
-              </div>
-            </div>
-          </figure>
-        </div>
+          </div>
+          <div class="tamaño-img grid__4">
+
+              <img src="/frontend/src/assets/fotos/perroperro.svg" alt="">
+
+          </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-  </section>
-
-
-
+    </section>  
+  </main>
 
           
      
