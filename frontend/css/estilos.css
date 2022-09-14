@@ -22,8 +22,170 @@
 }
 
 .carousel-item figure:hover > img {
-   filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0)); 
-        
+filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0)); 
+
 }
 
 /**************************************************/
+.donacion{
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+background-image: url(/frontend/src/assets/fotos/Olas.png);
+background-repeat: repeat-y;
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 1,2vw;
+height: 870px;
+top: 1800px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.donacionGrupoUno {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+
+}
+.donacionGrupoUno #imgUno {
+height: 20vh;
+position: absolute;
+left: 15%;
+top: 5%;
+z-index: 1; 
+}	
+
+.donacionGrupoUno #imgDos {
+left: 10%;
+z-index: 1; 
+position: relative;
+padding: 10px;
+width: 90%;
+}
+
+.donacionGrupoUno #imgTres {
+    height: 10vh;
+    position: absolute;
+    left: 85%;
+    top: 90%;
+    z-index: 1 
+}
+.donacionGrupoDos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.donacionGrupoDos p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.donacionGrupoDos img{
+position: absolute;
+left: 75%;
+top: 100%;
+z-index: 1;
+
+}
+
+.donacionGrupoDos button{
+    position: absolute;
+    left: 165px;
+    top: 120%;
+    z-index: 1; 
+    background: #3F3F3F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+
+/* texto botón */
+
+.donacionGrupoDos #textoButton{
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 38px;
+color: #FFE29C;
+text-decoration: none;
+}
+
+
+
+/* conoceer santuario */
+
+.conocerSantuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 1;
+    margin: 40px;
+    padding: 40px;
+    }
+    
+.conocerSantuario{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+.conocerSantuario #tituloSantuario{
+display: flex;
+justify-content: center;
+padding: 10px;
+color: rgba(241, 139, 126, 0.57);
+}
+
+.conocerSantuario #tituloSantuario p{
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #3F3F3F;
+
+}
+.conocerSantuario #tenerEncuenta {
+    display: flex;
+}
+
+.conocerSantuario #tenerEncuenta ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 10px;
+}
+
+.conocerSantuario p a{
+    color:  #F18B7E ;
+}
+
+/* scroll */
+
+
+.conocerSantuario #scroll{
+position: absolute;      
+width: 60px;
+left: 1200px;
+bottom: -225%;
+
+}
+
+
+
+
+
+
