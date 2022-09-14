@@ -145,8 +145,12 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 padding: 10px;
-color: rgba(241, 139, 126, 0.57);
+
 }
+.conocerSantuario h1{
+    color: rgba(241, 139, 126, 0.57);
+}
+
 
 .conocerSantuario #tituloSantuario p{
 font-style: normal;
