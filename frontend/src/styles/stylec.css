@@ -7,7 +7,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
         /* COLORES */
         
-         :root {
+        :root {
             --yellow: #FFD87EFF;
             --green-light: #97B8A5FF;
             --green-dark: #477D5E;
@@ -78,98 +78,96 @@
             color: #f18b7eff!important;
         }
         
-
-        /*--------------------------------NAVBAR------------------------------------*/
+/*--------------------------------NAVBAR------------------------------------*/
 
 .logo-style {
     height: clamp(80px, 10vw, 158px);
-     
- }
- 
- .btn-close {
-   width: 3em;
-   height: 3em;
- }
- 
- .navbar-light .navbar-toggler-icon {
-   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(151, 184, 165, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
- }
- 
- .navbar-light .navbar-toggler {
-   border: 1px solid var(--green-light);
- }
- 
- 
- .fond-style {
-     background-color: var(--pink-light);
- }
- 
- .text-style {
- color: #477D5E;    
- font-family: Lexend;
- font-size: 22px;
- font-weight: 800;
- text-align: center;
- 
- }
- 
- .text-style{
-   font-size: clamp(0.5em, 1.5vw, 1.5em);
- }
- 
- .menu-style > li > a > span {
-     transition: all 300ms;
-   }
-   
-   .menu-style > li > a > span:hover {
-     display: block;
-     color: var(--coral);
-     transform: translateY(-5px);
-   }
- 
-   .menu-style > li > a > span:hover::after {
-     height: 5px;
-     width: 100%;
-     content: "";
-     display: block;
-     position: absolute;
-     background: var(--coral);
-   }
-   
-   @media (max-width: 576px) {
- 
-     .logo-style {
-       height: 120px;
-       
-   }
-    
-     .fond-style {
-       background-color: var(--green-light);
-     }
-     .text-style {
-       color: #ffffffcc;
-       font-family: Lexend;
-       font-size: 20px;
-       font-weight: 700;
-       line-height: 25px;
-       letter-spacing: 0em;
-       text-align: left;
-     }
-   
-     .menu-style > li > a > span:hover {
-       color: var(--green-dark);
-       display: inline-block;
-     }
-     .menu-style > li > a > span:hover::after {
-       background: var(--green-dark);
-     }
-   }
-   
-   /*-------------------------------FIN-NAVBAR------------------------------------*/
- 
-  
-   /*-------------------------------SECTION PERRITO------------------------------------*/
+}
 
+.btn-close {
+    width: 3em;
+    height: 3em;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(151, 184, 165, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid var(--green-light);
+}
+
+
+.fond-style {
+background-color: var(--pink-light);
+}
+
+.text-style {
+    color: #477D5E;    
+    font-family: Lexend;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.text-style{
+    font-size: clamp(0.5em, 1.5vw, 1.5em);
+}
+
+.menu-style > li > a > span {
+    transition: all 300ms;
+}
+
+.menu-style > li > a > span:hover {
+    display: block;
+    color: var(--coral);
+    transform: translateY(-5px);
+}
+
+.menu-style > li > a > span:hover::after {
+    height: 5px;
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    background: var(--coral);
+}
+
+@media (max-width: 576px) {
+
+    .logo-style {
+    height: 120px;
+    
+}
+    
+.fond-style {
+    background-color: var(--green-light);
+    }
+.text-style {
+    color: #ffffffcc;
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+.menu-style > li > a > span:hover {
+    color: var(--green-dark);
+    display: inline-block;
+    }
+.menu-style > li > a > span:hover::after {
+    background: var(--green-dark);
+    }
+}
+
+/*-------------------------------FIN-NAVBAR------------------------------------*/
+
+/*-------------------------------SECTION PERRITO------------------------------------*/
+        .sobreNosotros {
+            height: 100vh;
+        }
         .tamaño-img>img {
             max-width: 85%;
             height: 100%;
@@ -181,6 +179,7 @@
             column-gap: 20px;
             text-align: center;
             max-height: 20vh;
+            
         }
         
         .grid__1 {
