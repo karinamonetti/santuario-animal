@@ -42,30 +42,30 @@ function Footer() {
           <div className="col-xl-4 col-lg-4   arreglo">
             <h2 className="chico">SANTUARIO ANIMAL</h2>
             <ul className="ul_container">
-              <li className="li">
+              <li className="li-footer">
                 <button className="enlace_footer" href="">
                   {" "}
                   Sobre Nosotros
                 </button>
               </li>
-              <li className="li">
+              <li className="li-footer">
                 <button className="enlace_footer" href="">
                   {" "}
                   Adopciones
                 </button>
               </li>
-              <li className="li">
+              <li className="li-footer">
                 <button className="enlace_footer" href="">
                   Cómo colaborar
                 </button>
               </li>
-              <li className="li">
+              <li className="li-footer">
                 <button className="enlace_footer" href="">
                   {" "}
                   Tienda
                 </button>
               </li>
-              <li className="li">
+              <li className="li-footer">
                 <button className="enlace_footer" href="">
                   {" "}
                   Contacto
