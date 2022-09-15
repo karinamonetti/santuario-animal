@@ -8,9 +8,9 @@ import linea from "../assets/12 1.png";
 
 function Cerditos() {
   return (
-    <section class="donacion" id="comoColaborar">
-      <div class="container">
-        <div class="donacionGrupoUno">
+    <section className="donacion" id="comoColaborar">
+      <div className="container">
+        <div className="donacionGrupoUno">
           <div>
             <img src={corazones} alt="" id="imgUno" />
           </div>
@@ -22,7 +22,7 @@ function Cerditos() {
           </div>
         </div>{" "}
       </div>
-      <div class="donacionGrupoDos">
+      <div className="donacionGrupoDos">
         <p>
           Nuestro Santuario no recibe fondos del gobierno ni de ninguna entidad
           estatal. Para poder ayudar a nuestros animales confiamos en la
