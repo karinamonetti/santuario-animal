@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+
+/* REDES */
+h1 {
+  font-family: "Lexend";
+  font-size: 24px;
+  font-weight: 800px;
+  color: #ffffff;
+}
+
+.icon-size {
+  height: 40px;
+  width: 50px;
+  left: 372px;
+  top: 5px;
+  color: #ffffff;
+}
+.enlace_redes {
+  background-color: transparent;
+  border: none;
+}
+/* ----REDES Final---------- */
+
+/* ----------SATUARIO ANIMAL---------- */
+h2 {
+  font-family: "Lexend";
+  font-size: 24px;
+  font-weight: 800px !important;
+  color: #ffffff;
+}
+div ul {
+  list-style: none;
+  padding: 0;
+}
+li a {
+  text-decoration: none;
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.disList {
+  display: inline-block;
+}
+div .ul_container .li .enlace_footer {
+  background: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+div .ul_container .li .enlace_footer:hover {
+  color: #f2d6cb;
+}
+/* ----------SATUARIO ANIMAL fINAL------------------- */
+
+/* ----------DONAR------------------- */
+.botoon {
+  border: none;
+  border-radius: 15px;
+  color: #477d5e;
+  height: 60px;
+  width: 160px;
+  font-family: Lexend;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 37.5px;
+  background: #97b8a5;
+  padding: 10px;
+}
+.botoon:hover {
+  background: #f18b7e;
+  color: #f2d6cb;
+}
+.Donar {
+  text-align: center;
+}
+
+/* ----------DONAR fINAL------------------- */
+
+/* ----------COPYRIGHT------------------- */
+p {
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+p {
+  color: #477d5e;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+footer {
+  background-image: url(/src/assets/ola_escritorio.svg);
+  height: 480px;
+  margin-top: 25px;
+  display: flex;
+  align-items: end;
+}
+
+.chico {
+  font-size: clamp(1.5em, 1.5vw, 3em);
+}
+
+@media (max-width: 991px) {
+  .arreglo {
+    display: none;
+  }
+  .margen {
+    margin-bottom: 98px;
+  }
+}
+
+@media (max-width: 768px) {
+  .margen {
+    margin-bottom: 98px;
+  }
+}
+
+@media (max-width: 420px) {
+  .chico {
+    font-size: 14px;
+  }
+  .icon-size {
+    height: 20px;
+    width: 20px;
+  }
+  .botoon {
+    width: 86px !important;
+    height: 26px !important;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    font-size: 20px;
+  }
+  .margen {
+    margin-bottom: 21px;
+  }
+
+  footer {
+    background-image: url(/src/assets/ola_pequeña_verde.svg);
+    background-size: 560px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
