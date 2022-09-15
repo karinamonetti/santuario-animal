@@ -59,6 +59,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
+  color: #3f3f3fb2;
 }
 .donacionGrupoDos img {
   position: absolute;
@@ -87,4 +88,10 @@
   line-height: 38px;
   color: #ffe29c;
   text-decoration: none;
+}
+
+@media (max-width: 420px) {
+  .donacion {
+    display: block;
+  }
 }
