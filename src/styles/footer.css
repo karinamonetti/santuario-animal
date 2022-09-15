@@ -15,7 +15,10 @@ h1 {
   top: 5px;
   color: #ffffff;
 }
-
+.enlace_redes {
+  background-color: transparent;
+  border: none;
+}
 /* ----REDES Final---------- */
 
 /* ----------SATUARIO ANIMAL---------- */
@@ -43,12 +46,12 @@ li a {
 .disList {
   display: inline-block;
 }
-div ul li button {
-  background-color: transparent;
-  border: 5px solid #477d5e;
+div .ul_container .li .enlace_footer {
+  background: transparent;
+  border: none;
   color: rgb(255, 255, 255);
 }
-button:hover {
+div .ul_container .li .enlace_footer:hover {
   color: #f2d6cb;
 }
 /* ----------SATUARIO ANIMAL fINAL------------------- */

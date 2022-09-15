@@ -26,6 +26,7 @@ function Footer() {
               </div>
               <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
                 <button
+                  className="enlace_redes"
                   target="_blank"
                   href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a"
                 >
@@ -40,21 +41,35 @@ function Footer() {
           {/* Satuario animal  */}
           <div class="col-xl-4 col-lg-4   arreglo">
             <h2 class="chico">SANTUARIO ANIMAL</h2>
-            <ul>
-              <li>
-                <button href=""> Sobre Nosotros</button>
+            <ul className="ul_container">
+              <li className="li">
+                <button className="enlace_footer" href="">
+                  {" "}
+                  Sobre Nosotros
+                </button>
               </li>
-              <li>
-                <button href=""> Adopciones</button>
+              <li className="li">
+                <button className="enlace_footer" href="">
+                  {" "}
+                  Adopciones
+                </button>
               </li>
-              <li>
-                <button href="">Cómo colaborar</button>
+              <li className="li">
+                <button className="enlace_footer" href="">
+                  Cómo colaborar
+                </button>
               </li>
-              <li>
-                <button href=""> Tienda</button>
+              <li className="li">
+                <button className="enlace_footer" href="">
+                  {" "}
+                  Tienda
+                </button>
               </li>
-              <li>
-                <button href=""> Contacto</button>
+              <li className="li">
+                <button className="enlace_footer" href="">
+                  {" "}
+                  Contacto
+                </button>
               </li>
             </ul>
           </div>
