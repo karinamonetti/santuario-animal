@@ -36,9 +36,8 @@ background-image: url(/frontend/src/assets/fotos/Olas.png);
 background-repeat: repeat-y;
 background-size: cover;
 background-position: center;
-height: 100vh;
 width: 1,2vw;
-height: 870px;
+height: 100vh;
 top: 1800px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -137,6 +136,7 @@ text-decoration: none;
         flex-direction: column;
         padding-top: 10px;
         padding-bottom: 10px;
+        height: 100vh;
     }
 
 .conocerSantuario #tituloSantuario{
@@ -163,11 +163,11 @@ color: #3F3F3F;
     display: flex;
 }
 
-.conocerSantuario #tenerEncuenta ul {
+#itemsTenerEncuenta {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: justify;
+    align-items: justify;
     padding: 10px;
 }
 
@@ -175,7 +175,7 @@ color: #3F3F3F;
     color:  #F18B7E ;
 }
 
-/* scroll */
+/* scroll 
 
 
 .conocerSantuario #scroll{
@@ -184,9 +184,116 @@ width: 60px;
 left: 1200px;
 bottom: -225%;
 
-}
+}*/
 
+/* RESPONSIVE */
 
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) { 
+    .donacion{ 
+        align-items: center;                
+        } 
+        
+    .donacionGrupoDos p {
+            text-align: justify;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+        }
+    .tenerEncuenta  {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            padding: 10px;
+        }
+    
+    #tituloSantuario img{
+            width: 50%;   
+    }
+    .tenerEncuenta img {
+            width: 100%;
+        }
+    }    
+    
+    /* Small devices (landscape phones, less than 768px)*/
+    @media (max-width: 768px) { 
+    
+        .donacionGrupoUno #imgTres {
+        display: none;
+        }
+    
+        .donacionGrupoDos img {
+        display: none;
+        }
+        
+        #tituloSantuario img{
+            width: 150px;   
+        }
+    
+    }
+    
+    /* Medium devices (tablets, less than 992px)*/
+    @media (max-width: 992px) { 
+        
+    .donacion {
+        flex-direction: column;
+        background-size: 130%; /* cambiar el tamaño fondo */
+        }
+    .donacionGrupoUno #imgUno {
+        height: 15vh;
+        left: 35%;
+        top: 0%;
+        }
+    .donacionGrupoUno #imgDos {
+        left: 35%;
+        z-index: 1;
+        padding: 0;
+        width: 300px;
+        }
+    
+    .donacionGrupoUno #imgTres {
+        height: 8vh;
+        left: 15%;
+        top: 150%;
+        z-index: 1;
+    
+    }   
+    .donacionGrupoDos img {
+        position: absolute;
+        left: 68%;
+        top: 76%;
+        width: 7%;
+    }
+    .donacionGrupoDos p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .donacionGrupoDos button {
+        font-size: 16px;
+        line-height: 25px;
+        left: 38%;
+        top: 93%;
+        margin-top: 20px;
+        }
+    }
+    
+    /* Large devices (desktops, less than 1200px)*/
+    @media (max-width: 1200px) {
+    .donacionGrupoDos #textoButton {
+        font-size: 25px;
+    }
+    }
+    
+    /* X-Large devices (large desktops, less than 1400px)*/
+    @media (max-width: 1399.98px) { 
+    
+     }
+    
+    
+    
 
 
 
