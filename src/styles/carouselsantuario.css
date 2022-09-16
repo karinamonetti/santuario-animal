@@ -37,3 +37,9 @@
 .carousel-item:hover > img {
   filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0));
 }
+
+@media (max-width: 375px) {
+  .h3-carousel-text {
+    font-size: 18px;
+  }
+}

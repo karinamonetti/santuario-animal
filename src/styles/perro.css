@@ -17,46 +17,24 @@
   --grey-dark: #3f3f3fff;
 }
 
-body {
+.container-perro {
   margin: 0;
   padding: 0;
   min-height: 100vh;
 }
 
-h1 {
-  font-family: "Lexend";
-  /* font-size: 36px !important; */
-  font-weight: 900 !important;
-}
-
-h2 {
-  font-family: "Lexend";
-  /* font-size: 30px !important; */
-  font-weight: 800 !important;
-}
-
-h3 {
-  font-family: "Lexend";
-  /* font-size: 24px !important; */
-  font-weight: bold !important;
-}
-
-.boton:hover {
+.boton-perro:hover {
   color: #477d5e !important;
   background-color: #97b8a5ff !important;
 }
 
-.boton {
+.boton-perro {
   font-family: "Lexend";
   /* font-size: 30px !important; */
   font-weight: 800 !important;
   background-color: #477d5e !important;
   color: #ffffff !important;
   border-radius: 15px;
-}
-
-p {
-  text-align: center;
 }
 
 .texto__grande {
@@ -186,5 +164,11 @@ p {
     max-width: 400px;
     align-self: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-perro {
+    margin: 0 1.5rem;
   }
 }

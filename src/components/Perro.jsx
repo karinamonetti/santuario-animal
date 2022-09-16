@@ -5,7 +5,7 @@ import perro from "../assets/perroperro.svg";
 
 function Perro() {
   return (
-    <div>
+    <div className="container-perro">
       <div className="grid__total texto__grande">
         <div className="grid__1">
           <p className="text-center">
@@ -36,7 +36,7 @@ function Perro() {
         </div>
         <div className="grid__3">
           <div className="d-grid  col-10 mx-auto">
-            <button className="btn boton" type="button">
+            <button className="btn boton-perro" type="button">
               SOBRE NOSOTROS
             </button>
           </div>
