@@ -22,8 +22,16 @@ nav {
 }
 
 .btn-close {
-  width: 3em;
-  height: 3em;
+  width: 4em;
+  height: 4em;
+}
+
+.offcanvas-header {
+  margin-top: 25px;
+}
+
+.navbar-toggler-icon {
+  width: 2.5em;
 }
 
 .navbar-light .navbar-toggler-icon {
