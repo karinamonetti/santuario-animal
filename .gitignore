@@ -1,0 +1,15 @@
+# Ignorar archivos temporales de editor
+*.log
+*.tmp
+pages/
+package-lock.json/
+package.json/
+# Ignorar el directorio node_modules (usado por npm)
+node_modules/
+
+# Ignorar archivos de compilación
+/dist/
+/build/
+
+# Ignorar el archivo de configuración de entorno
+.env
