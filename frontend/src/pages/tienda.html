@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Refugio Animal</title>
+        <link rel="icon" href="/frontend/src/assets/logo/Capa 1.png" type="image/png">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="../bootstrap/node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/frontend/src/styles/styles.css">
+    </head>
+    <body >
+        <div class="alert alert-warning fade hide position-fixed text-center " style="z-index: 2000;left: 0;right: 0;" role="alert"></div>
+        <header >
+            <nav class="navbar navbar-light navbar-expand-sm bg-light " >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img class="logo-style" src="../assets/logo/Capa 1.png" alt="Logo Santuario Animal">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end w-75 fond-style" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav h-100 d-flex-wrow justify-content-around flex-grow-1 pe-3 menu-style">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html"><span class="text-style">HOME</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/frontend/src/pages/sobrenosotros.html"><span class="text-style">SOBRE NOSOTROS</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/frontend/src/pages/adopciones.html"><span class="text-style">ADOPCIONES</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/frontend/src/pages/comocolaborar.html"><span class="text-style">CÓMO COLABORAR</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/frontend/src/pages/tienda.html"><span class="text-style">TIENDA</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/frontend/src/pages/contacto.html"><span class="text-style">CONTACTO</span></a>
+                    </li>
+                </nav>  
+        </header>
+        <!-- MAGIC -->
+        <section class="tienda">
+          <h1>Tienda</h1>
+      
+        
+        <div class="row p-0 text-center relative my-2 mx-0">
+            
+            <section
+              id="productos"
+              class="row m-0 text-center p-0 col-12 col-lg-6 col-xl-7" ></section>
+            <div class="col-12 col-lg-6 col-xl-5 p-4">
+              <h3 class="h3 text-body text-center">
+                Tus productos <i class="bi bi-cart3"></i>
+              </h3>
+              <hr />
+              <table class="table " style="border-collapse: separate;">
+                <thead>
+                  <tr>
+                    <th scope="col" style="width: 5%;"><i class="bi bi-trash"></i></ths>
+                    <th scope="col" style="width: 58%">Producto</th>
+                    <th scope="col" style="width: 25%">cantidad</th>
+                    <th scope="col" style="width: 12%">subtotal</th>
+                  </tr>
+                </thead>
+                <tbody id="productos-carrito">
+                  <td></td>
+                </tbody>
+                <tfoot id="total-carrito">
+                  <tr>
+                    <th colspan="3">total</th>
+                    <td colspan="" class="monto" fw-regular">$0</td>
+                  </tr>
+                </tfoot>
+                
+              </table>
+              <button class="submit-btn">Comprar  </button>
+            </div>
+          </div>
+
+        <!-- MAGIC FIN-->
+      </section>
+    <!------------------------------------------Seccion "BOTON SCROLL"----------------------------------------- -->  
+    <div id="button-up">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+              d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
+      </svg>
+  </div>
+  <!------------------------------------------Seccion "Fin BOTON SCROLL"------------------------------------- -->
+
+        <!------------------------------------------------- FOOTER --------------------------------------------------->
+
+<footer>
+  <div class="w-100 px-5 foto">
+  <!---- ---Redes  -------->
+  <div class="row margen" >
+      <div class="col-xl-6 col-lg-6 col-md-9 col-sm-8 col-8 text-center  ">
+      <h1 class="chico">¡SEGUINOS EN NUESTRAS REDES SOCIALES!</h1>
+      <div class="row justify-content-center ">
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+          <img class="icon-size"  src="/frontend/src/assets/facebook.svg" alt="Logo icono facebook" />
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+          <img class="icon-size"  src="/frontend/src/assets/instagram.svg" alt="Logo icono instagram" />
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+          <img class="icon-size" src="/frontend/src/assets/twitter.svg" alt="Logo icono twitter" />
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+          <a target="_blank"  href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a" > <img class="icon-size" src="/frontend/src/assets/youtube.svg" alt="Web Accessibility Initiative" /> </a>
+          </div>
+      </div>
+  </div>
+  <!---- ---Redes fin -------->
+
+  <!-- -- ---Satuario animal -------->
+  <div class="col-xl-4 col-lg-4   arreglo">
+      <h2 class="chico">REFUGIO ANIMAL</h2>
+      <ul class="contenedor_lista">
+          <li class="lista"><a href="/frontend/src/pages/sobrenosotros.html" class="item"> Sobre Nosotros</a></li>
+          <li class="lista"><a href="/frontend/src/pages/adopciones.html" class="item"> Adopciones</a></li>
+          <li class="lista"><a href="/frontend/src/pages/" class="item">Cómo colaborar</a></li>
+          <li class="lista"><a href="/frontend/src/pages/tienda.html" class="item"> Tienda</a></li>
+          <li class="lista"><a href="/frontend/src/pages/contacto.html" class="item"> Contacto</a></li>
+      </ul>
+  </div>
+  <!---- ---Santuario animal fin ------ -->
+  <!---- ---Donar -------->
+  <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-4  Donar ">
+          <a href="" class="botoon"> Donar</a>
+  </div>
+  <!---- ---Donar fin -------->
+
+</div>
+</div>
+</footer>
+      
+<!---------------------------------------------fin FOOTER --------------------------------------------------->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <script src="../bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/frontend/src/js/tienda/main.js" type="module"></script>
+        <script src="/frontend/src/js/scrollButton.js"></script>
+    </body>
+</html>

@@ -1,0 +1,931 @@
+/* FUENTES Y TAMAÑOS */
+/* font-family: 'Lexend'; */
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* COLORES */
+
+:root {
+  --yellow: #ffd87eff;
+  --green-light: #97b8a5ff;
+  --green-dark: #477d5e;
+  --sky-blue: #deeaecff;
+  --coral: #f18b7eff;
+  --pink-light: #ffe4ddff;
+  --grey-dark: #3f3f3fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  /* min-height: 100vh; */
+}
+
+/* h1 {
+  font-family: "Lexend";
+  font-size: 36px !important;
+  font-weight: 900 !important;
+} */
+
+h2 {
+  font-family: "Lexend";
+  font-size: 30px !important;
+  font-weight: 800 !important;
+}
+
+h3 {
+  font-family: "Lexend";
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+
+.boton:hover {
+  color: #477d5e !important;
+  background-color: #97b8a5ff !important;
+}
+
+.boton {
+  font-family: "Lexend";
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  background-color: #477d5e !important;
+  color: #ffffff !important;
+  border-radius: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+.texto__grande {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: clamp(0.8rem, 1.1vw, 1.3rem);
+}
+
+.texto__mediano {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.125em;
+}
+
+.texto__pequeño {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 0.875em;
+}
+
+.texto__rosa {
+  color: #f18b7eff !important;
+}
+
+/*--------------------------------NAVBAR------------------------------------*/
+.navbar {
+  position: relative;
+}
+nav {
+  border-bottom: 1.5px solid rgba(151, 184, 165, 0.5);
+  box-shadow: 0px 5px 12px rgba(151, 184, 165, 0.25);
+
+}
+
+.logo-style {
+  height: clamp(50px, 10vw, 90px);
+}
+
+.btn-close {
+  width: 4em;
+  height: 5em;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(151, 184, 165, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.fond-style {
+  background-color: var(--pink-light);
+}
+
+.text-style {
+  color: #477d5e;
+  font-family: Lexend;
+  font-size: 1.5em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.text-style {
+  font-size: clamp(0.5em, 1.5vw, 1.4em);
+}
+
+.menu-style > li > a > span {
+  transition: all 300ms;
+}
+
+.menu-style > li > a > span:hover {
+  display: block;
+  color: var(--coral);
+  transform: translateY(-5px);
+}
+
+.menu-style > li > a > span:hover::after {
+  height: 5px;
+  width: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  background: var(--coral);
+}
+
+@media (max-width: 576px) {
+  .logo-style {
+    height: 80px;
+  }
+
+  nav {
+    border: none;
+  }
+
+  .fond-style {
+    background-color: var(--green-light);
+  }
+  .text-style {
+    color: #ffffffcc;
+    font-family: Lexend;
+    font-size: 1.25em;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .menu-style > li > a > span:hover {
+    color: var(--green-dark);
+    display: inline-block;
+  }
+  .menu-style > li > a > span:hover::after {
+    background: var(--green-dark);
+  }
+}
+
+/*-------------------------------FIN-NAVBAR------------------------------------*/
+
+/*-------------------------------SECCION CAROUSEL-------------------------------*/
+.carousel-item{ 
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
+}
+.h3Carousel{
+  font-family: 'Lexend';
+  font-size: 1.875em !important;
+  font-weight: 800 !important;
+  color: var(--sky-blue);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.56);
+  text-align: center;
+  margin-top: 10px;
+}
+.carousel-item  img {
+  object-fit: cover;
+/*    transition: all 500ms ease-in-out;   */     
+}
+
+.carousel-item figure > .capaCarousel{
+/*  transition: all 500ms ease-in-out;  */
+  opacity: 0;
+  visibility: hidden;
+}
+.carousel-item figure:hover > .capaCarousel {
+  opacity: 3;
+  visibility: visible;
+}
+
+.carousel-item figure:hover > img {
+filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0)); 
+
+}
+
+
+
+
+/*-------------------------------FIN-CAROUSEL------------------------------------*/
+
+/*-------------------------------SECTION PERRITO------------------------------------*/
+
+/* .contenedor-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+  
+} */
+
+
+#sobre-nosotros{
+filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
+
+}
+.contendor-sobre-nosotros {
+  margin: 0;
+  padding: 5px 20px 0 20px;
+}
+
+.titulo-sobre-nosotros {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 1.563em;
+  font-weight: 800;
+  color: var(--green-dark);
+}
+
+.contenedor-img-perro-mov {
+  display: flex;
+  justify-content: center;
+}
+
+.img-perro-movil {
+  width: 250px;
+  margin: 0px 0px 30px 0;
+}
+
+.texto-nosotros {
+  font-size: 0.875em;
+  font-family: Hind Madurai;
+}
+
+.texto-rosita {
+  color: #f18b7e;
+}
+
+.texto-negrita {
+  color: black;
+  font-weight: 500;
+}
+
+.img-perro {
+  display: none;
+}
+
+/*-----------------------------------------Fin Seccion PERRITO------------------------------------------------ */
+
+/*---------------------------------------------Seccion "Donación"--------------------------------------------- */
+.fondo-donacion {
+  background-color: #FFD87EFF;
+  
+  background-repeat: repeat-y;
+  
+  background-position: center;
+  padding: 40px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  background:
+  radial-gradient(
+    circle at 94% 72%, #7dc989 0 10%, transparent 40.2%
+  ), 
+  radial-gradient(
+    circle at 0% max(78%, 350px), #FFD87EFF 0 20%, transparent 40.2%
+  ), 
+  radial-gradient(
+    circle at 0% 0%, #eba8a0 0 20%, transparent 40.2%
+  ), 
+  #F18B7E ;
+  border-radius: 10px 0 0 10px;
+  }
+  
+
+.contenedor-donacion {
+  margin: 0;
+  padding: 5px 20px 0 20px;
+}
+
+.img-donacion {
+  width: 250px;
+}
+
+.contenedor-img-donacion {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 30px 0;
+}
+
+.texto-donacion {
+  font-family: Hind Madurai;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.boton-donacion {
+  margin: 10px;
+  background-color: var(--grey-dark);
+  padding: 8px 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  color: var(--yellow);
+  font-size: 0.938em;
+  font-family: Lexend;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.boton-donacion:hover {
+  background-color: var(--yellow);
+  border: 2px solid black;
+  color: black;
+}
+
+/*---------------------------------------------Fin Seccion "Donación"----------------------------------------- */
+
+/*---------------------------------------------FOOTER-------------------------------------------*/
+/* REDES */
+
+.icon-size {
+  height: 40px;
+  width: 50px;
+  left: 372px;
+  top: 5px;
+  color: #ffffff;
+}
+
+/* ----REDES Final---------- */
+
+/* ----------SATUARIO ANIMAL---------- */
+.chico {
+  font-size: clamp(1.5em, 1.5vw, 3em);
+  color: #ffffff;
+}
+div ul {
+  list-style: none;
+  padding: 0;
+}
+li a {
+  text-decoration: none;
+  font-family: Hind Madurai;
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.arreglo .contenedor_lista .lista .item {
+  background-color: transparent;
+  border: 5px solid #477d5e;
+  color: rgb(255, 255, 255);
+}
+.arreglo .contenedor_lista .lista .item:hover {
+  color: #f2d6cb;
+}
+
+/* ----------SATUARIO ANIMAL fINAL------------------- */
+
+/* ----------DONAR------------------- */
+.botoon {
+  border: none;
+  border-radius: 15px;
+  color: #477d5e;
+  height: 60px;
+  width: 160px;
+  font-family: Lexend;
+  font-size: 1.875em;
+  font-weight: 900;
+  line-height: 37.5px;
+  background: #97b8a5;
+  padding: 18px;
+  text-decoration: none;
+}
+.botoon:hover {
+  background: #f18b7e;
+  color: #f2d6cb;
+}
+.Donar {
+  text-align: center;
+}
+
+footer {
+  background-image: url(/frontend/src/assets/ola_escritorio.svg);
+  height: 480px;
+  margin-top: 25px;
+  display: flex;
+  align-items: end;
+}
+
+.chico {
+  font-size: clamp(1.5em, 1.5vw, 3em);
+}
+
+@media (max-width: 991px) {
+  footer .arreglo {
+    display: none;
+  }
+  footer .foto .margen {
+    margin-bottom: 98px;
+  }
+}
+
+@media (max-width: 768px) {
+  .margen {
+    margin-bottom: 98px;
+  }
+}
+
+@media (max-width: 420px) {
+  footer .chico {
+    font-size: 0.875em;
+  }
+  .icon-size {
+    height: 20px;
+    width: 20px;
+  }
+  .botoon {
+    width: 86px !important;
+    height: 26px !important;
+    padding-top: 6px;
+    padding-bottom: 11px;
+    font-size: 1.125em;
+  }
+  .margen {
+    margin-bottom: 21px;
+  }
+
+  footer {
+    background-image: url(/frontend/src/assets/ola_pequeña_verde.svg);
+    background-size: 560px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+/*------------------------------------------Fin-FOOTER-------------------------------------------*/
+
+@media (min-width: 576px) {
+  .contenedor-img-perro-mov {
+    display: none;
+  }
+
+  .texto-nosotros {
+    font-size: 0.75em;
+    font-family: Hind Madurai;
+  }
+
+  .contendor-sobre-nosotros {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .img-perro {
+    display: block;
+    width: 250px;
+  }
+
+  /*--------------------------------------------------------------*/
+
+  .contenedor-donacion {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .img-donacion {
+    width: 250px;
+  }
+
+  .texto-donacion {
+    font-family: Hind Madurai;
+    font-size: 0.75em;
+    font-weight: 200;
+  }
+
+  .boton-donacion {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 768px) {
+  .contenedor-texto {
+    width: 400px;
+  }
+
+  .contendor-sobre-nosotros {
+    margin: 30px;
+  }
+
+  .contendor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /*-------------------------------------------------*/
+
+  .contenedor-donacion {
+    margin: 30px;
+  }
+
+  .contenedor-donacion {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .boton-donacion {
+    font-size: 1.125em;
+  }
+}
+
+@media (min-width: 992px) {
+  .contenedor-texto {
+    width: 500px;
+  }
+
+  .contenedor-img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-perro {
+    display: inline-block;
+    width: 450px;
+  }
+
+  .texto-nosotros {
+    font-size: 1.125em;
+  }
+
+  /*--------------------------------------------------------------*/
+
+  .img-donacion {
+    width: 450px;
+  }
+
+  .texto-donacion {
+    margin: 0;
+    font-size: 1.125em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .texto-nosotros {
+    font-size: 1.375em;
+  }
+
+  /*--------------------------------------------------------------*/
+
+  .texto-donacion {
+    font-size: 1.375em;
+  }
+
+  .img-donacion {
+    width: 550px;
+  }
+}
+/************BOTON SCROLL**********************************/
+
+#button-up{
+  width: 60px;
+  height: 60px;
+  background: #477d5e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.25em;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 300ms ease;
+  transform: scale(0);
+}
+
+#button-up:hover{
+  transform: scale(1.1);
+  border: 4px solid #477d5e;
+}
+/*****************FIN BOTON SCROLL**************************/
+
+/******************CONTACTO***********************/
+
+.contacto h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 2.8em;
+  font-weight: 800;
+  color: var(--green-dark);
+  filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  width: clamp(100px, 90%, 1000px);
+  margin: 80px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 6px 2px 34px -10px rgba(0,0,0,0.67);
+  -webkit-box-shadow: 6px 2px 34px -10px rgba(0,0,0,0.67);
+  -moz-box-shadow: 6px 2px 34px -10px rgba(0,0,0,0.67);
+
+}
+
+.contact-links, .contact-form-wrapper {
+  width: 50%;
+  padding: 8% 5% 10% 5%;
+}
+
+
+.contact-links {
+  background-color: #f7f7f7;
+
+  background:
+    radial-gradient(
+      circle at 55% 92%, #7dc989  0 12%, transparent 40.2%
+    ), 
+    radial-gradient(
+      circle at 94% 72%, #ffd87eff 0 10%, transparent 40.2%
+    ), 
+    radial-gradient(
+      circle at 0% max(78%, 350px), #7dc989 0 20%, transparent 40.2%
+    ), 
+    radial-gradient(
+      circle at 0% 0%, #7dc989 0 20%, transparent 40.2%
+    ), 
+    #7dc989 ;
+  border-radius: 10px 0 0 10px;
+}
+.contact-h2{
+  filter: drop-shadow(2px 2px 3px #0003);
+  font-size: 1em;
+}
+
+.contact-form-wrapper {
+  background-color: #ffffff8f;
+  border-radius: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-links, .contact-form-wrapper {
+    width: 100%;
+  }
+  
+  .contact-links {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .contact-form-wrapper {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
+}
+
+.contact-box h2 {
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+  font-size: clamp(30px, 6vw, 60px);
+  letter-spacing: 2px;
+  text-align: center;
+  transform: scale(.95, 1);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.link {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.contact-box img {
+  width: 45px;
+  height: 45px;
+  filter: 
+    hue-rotate(220deg)
+    drop-shadow(2px 4px 4px #0006);
+  transition: 0.2s;
+  user-select: none;
+}
+
+.contact-box img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.contact-box img:active {
+  transform: scale(1.1, 1.1);
+  filter: 
+    hue-rotate(220deg)
+    drop-shadow(2px 4px 4px #222)
+    sepia(0.3);
+}
+
+.form-item {
+  position: relative;
+}
+
+.form-item label, input, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-item label {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  color: #999;
+  font-size: clamp(14px, 1.5vw, 18px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.form-item input, textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: clamp(15px, 1.5vw, 18px);
+}
+.form-item
+input:focus+label, 
+input:valid+label, 
+textarea:focus+label, 
+textarea:valid+label {
+  font-size: clamp(13px, 1.3vw, 16px);
+  color: #777;
+  top: -20px;
+  transition: all .225s ease;
+}
+
+.submit-btn {
+  background-color: var(--coral);
+  filter: drop-shadow(2px 2px 3px #0003);
+  color: #fff;
+  font-family: "Poppins",sans-serif;
+  font-size: clamp(16px, 1.6vw, 18px);
+  display: block;
+  padding: 12px 20px;
+  margin: 2px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.submit-btn:active {
+  transform: scale(1.1, 1.1);
+  filter: sepia(0.5);
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: clamp(40px, 10vw, 60px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-box  h2 {
+    font-size: clamp(30px, 12vw, 60px);
+  }
+  
+  .links {
+    padding-top: 30px;
+  }
+  
+  .contact-box  img {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+
+/************************FIN CONTACTO ****************/
+/*******************IFRAME GOOGLE MAPS*********************/
+.ifrma {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+
+/*******************Fin Iframe Google Maps*********************/
+/*************************Adopciones********************/
+
+  
+.adopciones h1{
+  margin-top: 50px;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 2.8em;
+  font-weight: 800;
+  color: var(--green-dark);
+  filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
+
+}
+.contenedor-card2{
+  margin: 20px auto;
+}
+
+.boton-carta{
+  border: none;
+  font-size: 20px;
+  background-color: #477d5e;
+  color: #ffffff;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.contenedor-card{
+  margin-top: 150px;
+  align-items: center;
+  text-align: center;
+
+}
+
+.boton-carta:hover{
+transition: 1s;
+background-color:var(--coral)
+}
+
+.body-adopciones{
+  /* background-image:url(../assets/imagenpatas.jpg.png); */
+  background-color:var(--bs-body-bg);
+  background-size: cover;
+
+}
+
+
+.imagen-card{
+  width: 100%;
+  height: 250px;
+}
+
+.borde-cartas{
+  border: none;
+}
+
+.tit-carta{
+  font-weight: 80px;
+  font-family:"Lexend", sans-serif; ;
+  font-size: 25px;
+  color:var(--green-dark) ;
+}
+
+.texto-carta{
+  font-size: clamp(0.3em, 1.2vw, 1.6em);
+}
+@media only screen and (max-width: 800px) {
+  .contenedor-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/**************************** FIN ADOPCIONES **************************/
+
+/***************************** tienda *********************************/
+
+.tienda h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 2.8em;
+  font-weight: 800;
+  color: var(--green-dark);
+  filter:   drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.155));
+}
+.texto-adoociones {
+  font-size: 1.5em;
+  font-family: Hind Madurai;
+  margin-top: 35px;
+}
+/**************************** fin tienda *******************************/
