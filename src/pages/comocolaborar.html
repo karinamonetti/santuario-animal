@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugio Animal</title>
+    <link rel="icon" href="/frontend/src/assets/logo/Capa 1.png" type="image/png">
+    <link rel="stylesheet" href="/frontend/src/bootstrap/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/frontend/src/styles/styles.css">
+</head>
+
+<body>
+    <!---------------------------------------------NAVBAR------------------------------------------------------->
+
+    <header>
+        <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-style" src="/frontend/src/assets/logo/Capa 1.png" alt="Logo Santuario Animal">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end w-75 fond-style" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav h-100 d-flex-wrow justify-content-around flex-grow-1 pe-3 menu-style">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html"><span
+                                        class="text-style">HOME</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/frontend/src/pages/sobrenosotros.html"><span
+                                        class="text-style">SOBRE NOSOTROS</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/frontend/src/pages/adopciones.html"><span
+                                        class="text-style">ADOPCIONES</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contenedor-donacion"><span class="text-style">CÓMO
+                                        COLABORAR</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/frontend/src/pages/tienda.html"><span
+                                        class="text-style">TIENDA</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/frontend/src/pages/contacto.html"><span
+                                        class="text-style">CONTACTO</span></a>
+                            </li>
+        </nav>
+    </header>
+
+    <!------------------------------------------Fin NAVBAR--------------------------------------------------->
+
+
+
+    <main>
+        <!---------------------------------------------Seccion "Donación"--------------------------------------------->
+        <section>
+
+            <div class="contenedor-donacion">
+                <div class="contenedor-img-donacion">
+                    <img class="img-donacion" src="" alt="Animales">
+                </div>
+                <div class="contenedor-texto">
+                    <p class="texto-donacion">Nuestro Refugio no recibe fondos del gobierno ni de ninguna entidad
+                        estatal. Para poder ayudar a nuestros animales confiamos en la generosidad de personas como vos.
+                    </p>
+                    <p class="texto-donacion">Poder financiar el Refugio animal conlleva muchos gastos: veterinarios,
+                        alimentos, medicamentos, traslados y facturas de calefacción para todos nuestros animales,
+                        algunos de los cuales estarán con nosotros por el resto de sus vidas.</p>
+                    <p class="texto-donacion">Tambien todo lo recaudado en la tienda de productos sera 100% destinado al
+                        refugio y sus habitantes</p>
+                    <p class="texto-donacion">Cada donación cuenta.</p><br>
+                    <div class="contenedor-boton"> <button class="submit-btn"> Realiza una donación </button> </div>
+                    <!--  <div class="contenedor-boton"><button class="boton-donacion">REALIZAR UNA DONACIÓN</button></div> -->
+                </div>
+        </section>
+        <!---------------------------------------------Fin Seccion "Donación"----------------------------------------->
+
+
+
+    </main>
+
+    <!------------------------------------------Seccion "BOTON SCROLL"----------------------------------------- -->
+    <div id="button-up">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
+        </svg>
+    </div>
+    <!------------------------------------------Seccion "Fin BOTON SCROLL"------------------------------------- -->
+
+    <!------------------------------------------------- FOOTER --------------------------------------------------->
+
+    <footer>
+        <div class="w-100 px-5 foto">
+            <!---- ---Redes  -------->
+            <div class="row margen">
+                <div class="col-xl-6 col-lg-6 col-md-9 col-sm-8 col-8 text-center  ">
+                    <h1 class="chico">¡SEGUINOS EN NUESTRAS REDES SOCIALES!</h1>
+                    <div class="row justify-content-center ">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+                            <img class="icon-size" src="/frontend/src/assets/facebook.svg" alt="Logo icono facebook" />
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+                            <img class="icon-size" src="/frontend/src/assets/instagram.svg"
+                                alt="Logo icono instagram" />
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+                            <img class="icon-size" src="/frontend/src/assets/twitter.svg" alt="Logo icono twitter" />
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 mt-2">
+                            <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a"> <img
+                                    class="icon-size" src="/frontend/src/assets/youtube.svg"
+                                    alt="Web Accessibility Initiative" /> </a>
+                        </div>
+                    </div>
+                </div>
+                <!---- ---Redes fin -------->
+
+                <!-- -- ---Satuario animal -------->
+                <div class="col-xl-4 col-lg-4   arreglo">
+                    <h2 class="chico">REFUGIO ANIMAL</h2>
+                    <ul class="contenedor_lista">
+                        <li class="lista"><a href="/frontend/src/pages/sobrenosotros.html" class="item"> Sobre
+                                Nosotros</a></li>
+                        <li class="lista"><a href="/frontend/src/pages/adopciones.html" class="item"> Adopciones</a>
+                        </li>
+                        <li class="lista"><a href="" class="item">Cómo colaborar</a></li>
+                        <li class="lista"><a href="/frontend/src/pages/tienda.html" class="item"> Tienda</a></li>
+                        <li class="lista"><a href="/frontend/src/pages/contacto.html" class="item"> Contacto</a></li>
+                    </ul>
+                </div>
+                <!---- ---Santuario animal fin ------ -->
+                <!---- ---Donar -------->
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-4  Donar ">
+                    <a href="" class="botoon"> Donar</a>
+                </div>
+                <!---- ---Donar fin -------->
+
+            </div>
+        </div>
+    </footer>
+
+    <!----------------------------------------------Fin FOOTER --------------------------------------------------->
+
+</body>
+<script src="/frontend/src/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="/frontend/src/js/scrollButton.js"></script>
+
+</html>
